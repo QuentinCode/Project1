@@ -84,11 +84,11 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px;
     color: rgb(226, 226, 226);
-    border-top: 5px solid rgb(24, 24, 24);
 }
 .card-services {
     background-color: rgb(27, 27, 27);
-    margin: 50px;
+    box-shadow: 5px 5px 14px -6px #000000;
+    margin: 150px 50px;
     border-radius: 50px;
     padding: 20px;
     transition: 0.1s ease-in-out;
@@ -97,7 +97,15 @@ nav {
 .card-services:hover {
     transform: scale(1.02);
 }
-
+.card-services h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+.card-services p {
+    width: 70%;
+    margin: 0 auto;
+}
 .navettes img {
-    width: 30%;
+    width: 20%;
 }
